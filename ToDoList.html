@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="ToDoStyle.css">
+
+   <title>To Do List</title>
+</head>
+<body>
+   <main class="container">
+      <section class="bg_container">
+         <h3>Input Data Kamu</h3>
+         <form id="form_input">
+            <div class="input i_nama">
+               <label for="nama">Input Nama</label>
+               <input type="text" name="nama" id="nama" placeholder="nama">   
+            </div>
+            <div class="input i_email">
+               <label for="email">Input Email</label>
+               <input type="email" name="email" id="email" placeholder="email">
+            </div>
+            <div class="input i_no_hp">
+               <label for="no_hp">Input No Hp</label>
+               <input type="text" name="no_hp" id="no_hp" placeholder="nomor handphone">
+            </div>
+            <div class="input i_jk">
+               <label for="jk">Input Jenis Kelamin</label>
+               <input type="text" name="jk" id="jk" placeholder="jenis kelamin">
+            </div>
+      
+            <button type="button">Submit</button>
+         </form>
+      </section>
+      
+      <section class="bg_data">
+         <h3>Data Saya</h3>
+         <h4 class="close">X</h4>
+         <ul id="list">
+         </ul>
+
+      </section>
+      
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>

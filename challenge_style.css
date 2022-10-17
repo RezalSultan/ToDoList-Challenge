@@ -1,0 +1,25 @@
+table { 
+    border: 1px solid black;
+}
+tr, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.baris2 td {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.baris1_kolom1 {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.baris4_kolom4 {
+    background-color: red;
+    color: white;
+    border: none;
+}

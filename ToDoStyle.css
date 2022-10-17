@@ -1,0 +1,161 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Helvetica, sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(235, 235, 235);
+   height: 100%;
+   margin-top: 40px;
+}
+
+.container {
+   display: flex;
+   align-items: flex-start;
+   gap: 40px;
+}
+
+.bg_container {
+   padding: 24px;
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   background-color: aquamarine;
+   box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+}
+
+h3 {
+   text-align: center;
+   margin-bottom: 24px;
+}
+
+#form_input {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.input {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.input input {
+   height: 32px;
+   border-radius: 10px;
+   border: none;
+   padding: 0 16px;
+}
+
+#form_input button{
+   font-weight: bold;
+   background-color: dodgerblue;
+   color: white;
+   margin-top: 16px;
+   height: 32px;
+   border-radius: 10px;
+   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.15);
+   border: none;
+   padding: 0 16px;
+}
+
+#form_input button:hover{
+   cursor: pointer;
+   background-color: rgb(0, 128, 255);
+}
+
+.bg_data {
+   position: relative;
+   padding: 24px 40px;
+   display: none;
+   flex-direction: column;
+   width: 400px;
+   background-color: aquamarine;
+   box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+}
+
+.bg_data h4 {
+   position: absolute;
+   top: 16px;
+   right: 16px;
+   cursor: pointer;
+}
+
+#list {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+#list li {
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   overflow-wrap: break-word;
+}
+
+#list li .data {
+   width: 32%;
+}
+
+#list li .value {
+   width: 65%;
+   overflow-wrap: break-word;
+}
+
+#list li .colon {
+   width: 3%;
+}
+
+.button_wrapper {
+   display: flex;
+   gap: 16px;
+   margin-bottom: 16px;
+}
+
+.button_wrapper .delete {
+   width: 50%;
+   font-weight: bold;
+   background-color: brown;
+   color: white;
+   height: 32px;
+   border-radius: 10px;
+   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.15);
+   border: none;
+   padding: 0 16px;
+}
+
+.button_wrapper .delete:hover {
+   cursor: pointer;
+   background-color: rgb(163, 23, 23);
+}
+
+.button_wrapper .edit {
+   width: 50%;
+   font-weight: bold;
+   background-color: cornflowerblue;
+   color: white;
+   height: 32px;
+   border-radius: 10px;
+   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.15);
+   border: none;
+   padding: 0 16px;
+}
+
+.button_wrapper .edit:hover {
+   cursor: pointer;
+   background-color: rgb(78, 133, 236);
+}
+
+.hapus1 {
+   display: none;
+}
