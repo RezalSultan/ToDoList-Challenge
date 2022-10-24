@@ -8,7 +8,7 @@ const jk_user = document.getElementById("jk");
 
 const list = document.getElementById("list");
 
-data = [];
+let data = [];
 
 const editData = function(index){
    nama_user.value = data[index].nama;
@@ -69,10 +69,10 @@ button.addEventListener("click", function (){
          'jk': jk_user.value
       });
    }else {
-      data[id].nama = nama_user.value
-      data[id].email = email_user.value
-      data[id].no_hp = no_hp_user.value
-      data[id].jk = jk_user.value
+      data[id].nama = nama_user.value;
+      data[id].email = email_user.value;
+      data[id].no_hp = no_hp_user.value;
+      data[id].jk = jk_user.value;
    }
    clear()
 
